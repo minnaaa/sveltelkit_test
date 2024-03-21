@@ -4,7 +4,6 @@
     console.log(data);
 </script>
   
-<h1>계정 목록</h1>
 {#if data.data.length > 0}
   <ul>
       {#each data.data as account}
